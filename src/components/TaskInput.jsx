@@ -44,12 +44,12 @@ const TaskInput = ({ setShowModal }) => {
           <div className="line"></div>
         </div>
         <div className="field">
-          <input
+          {/* <input
             type="text"
             placeholder="Enter Task Description"
             value={taskDescription}
             onChange={(e) => setTaskDescription(e.target.value)}
-          />
+          /> */}
           <div className="line"></div>
         </div>
 
